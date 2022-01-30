@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Account </title> 
+		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="../css/awesome/css/all.css">
+		<link rel="stylesheet" type = "text/css" href="../css/mainstylesheet.css"> 
+		<link rel="stylesheet" type = "text/css" href="../css/conaccount.css">
+		<link rel="stylesheet" type = "text/css" href="../css/meeting.css">
+		
+		<!--
+		<script src="../js/.js"></script>-->
+	</head>
+	<!--strat of header -->
+		<header class="header">
+			<!--banner-->
+			<div class="topbanner"><img src="../images/banner.gif"></div>
+			<ul class="navbar">
+					<li class="menu"><a href ="home.html">Home</a></li>
+					<li class="menu"><a href ="signup.html">Sign Up</a></li>
+					<li class="menu"><a href ="Sign in.html">Sign In</a></li>
+					<li class="dropdown">
+						<a href="sell on.html" class="dropbtn">Sell on </i></a>
+					<div class="dropdown-content">
+						<a href="sellersignin.html">Seller Login</a>
+					</div>
+				</li>
+					<li class="menu1"><a href ="cart.php"><i class="fas fa-shopping-cart"></i><a></li>
+					<li class="menu1"><a href =""> <i class="far fa-bell"></i></i><a></li>
+					<li class="menu1"><a href ="Account.html">Account <i class="far fa-user"></i></a></li>
+					<li class="menu1"><a href ="Contact.html">Contact us<a></li>
+			</ul>
+			<!--logo -->
+			<img src="../images/logo.gif" class="logo" >
+			<!--search and cart -->
+			<div class="wrapper" class="box" >
+				<input type="text" class="input" placeholder="What are you looking for?">
+				<div class="searchbtn"><i class="fas fa-search"></i></div>
+				<div class="cart"> <i class="fas fa-2x fa-shopping-cart" ></i> </div>
+			</div>
+		</header>	<!--end of header -->
+
+		<body>
+			<div class="meetbody">
+			</div>
+			<div class="backgroundbody"><br><br>
+				<center> <h1 class="textq"> Create LIVE MEETING </h1> </center>
+					
+				<form class= "request" action ="../php/result.php" method="POST" >
+					<fieldset><br>
+						<center><strong> Request for Live Event </strong></center><br>
+						<div class="formreq">
+							<p><lable class="title" for="name"><b>Your name</b></lable>
+							<input type="text" for="name" id="name" required><br/>
+	
+							<lable class="title" for="email"><b>Your email</b></lable>
+							<input type="email" name="email" id="name" required><br/>
+	
+	
+							<lable for = "location" class = "title"><b>Meeting site:</b></lable>
+							<select name = "site" id  = "site" style="width:200px;height:30px;">
+								<option value = "MST">Microsoft Teams</optioin>
+								<option value = "ZOOM">ZOOM</optioin>
+								<option value = "Webex">Webex</optioin>
+							</select>
+							
+							<span class = "title"><b> Resever your space on: </span></b><br>
+							<label><input type= "checkbox" name = "Wsession[]" value = "1" /> Weekday </label><br>
+							<label><input type= "checkbox" name = "Wsession[]" value = "2" /> Weekend </label><br>
+						
+							<span class = "title"><b>Registered member:</b></span><br/>
+							<label><input type= "radio" name = "member" value = "1" />Yes</label>
+							<label><input type= "radio" name = "member" value = "0" />No</label>
+						
+							<div class="submit" >
+								<input type ="submit" value = "Register">
+							</div>
+						</div><br><hr>
+						<center><h4> Meet us through your favourite browers</h4></center><br>
+						<center>
+							<img src="../images/mst.jpg" class="ad1" height="90" width="80">
+							<img src="../images/zoom.jpg" class="ad3" height="90" width="80">
+							<img src="../images/webex.jpg" class="ad2" height="90" width="80">
+						</center><br>	
+					</fieldset>
+				</form><br><br><br><br>
+				<!-- end the artical-->
+				<!-- Advertistment-->
+				<center>
+					<img src="../images/m1.gif"  height="300" width="245">
+					<img src="../images/m2.gif"  height="300" width="245">
+					<img src="../images/m3.gif"  height="300" width="245">
+					<img src="../images/m4.gif"  height="300" width="245">
+					<img src="../images/m5.gif"  height="300" width="245">
+				</center><br><br><br>
+			</div>
+		</body>
+		<!--end of Body content -->	
+		
+		<!-- Start of footer -->
+		<footer class="footer">
+			<table border="0" id="footertable">
+				<tr>
+					<td>	<a href="" class="tbheading">Payments</a>  </td>
+					<td>	<a href="" class="tbheading">Follow Us</a> </td>
+					<td>	<a href="" class="tbheading">Contact Us</a> </td>
+					<td>	<a class="tbheading">Verified by</a> </td>
+				</tr>	
+				<tr>
+					<td>	<img src="../images/payment.png" id="payveri"> </td>
+					<td>	
+						<ul class="icon">
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-facebook" class="ficon" style="color:blue"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-instagram" class="ficon" style="color:brown"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-twitter-square" class="ficon" style="color:#00acee"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-google-plus-square" class="ficon" style="color:#db4a39"></i> </a></li>
+						</ul>
+					</td>
+					<td><a href="#"><i class="fas fa-1x fa-envelope" id="cicon"> info@vdaatexpress.com</i></a></td>
+					<td> <img src="../images/verified.png" id="payveri">	</td>
+				</tr> 
+			</table>	
+			<p id="label"> &copy; Vdaat Express <script>document.write(new Date().getFullYear());</script>.  All rights reserved. </p>
+		</footer>
+		<!--end of header -->
+		</body>
+
+	</html>

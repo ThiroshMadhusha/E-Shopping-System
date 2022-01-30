@@ -1,0 +1,291 @@
+/*background styles for body*/
+.reg{
+	padding:10px 0px;
+	background-image:linear-gradient(to right, #2C3E50,#FD746C);
+}
+
+/*styles for text boxes*/
+.formtext[type=text]{
+  width: 45%;
+  padding: 12px 10px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  letter-spacing:1px;
+}
+
+/*styles for radio buttons*/
+
+/* formradio */
+.fromradio {
+  display: block;
+  position: relative;
+  float:left;
+  padding-left: 35px;
+  margin-top: 12px;
+  margin-left:18px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Hide the browser's default radio button */
+.fromradio input {
+  display:none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.fromradio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a yellow background */
+.fromradio input:checked ~ .checkmark {
+  background-color: #f5af19;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.fromradio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.fromradio .checkmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: white;
+}
+
+ /*styles for phone number box*/ 
+.formtel[type=tel]{
+  width: 45%;
+  height:40px;
+  padding: 3px 6px 3px 10px ;
+  margin: 8px 0px;
+  font-size:15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  letter-spacing:3px;
+}
+
+/*styles for email boxes*/
+.formemail[type=email]{
+  width: 45%;
+  height:40px;
+  padding: 3px 6px 3px 10px ;
+  margin: 8px 0px;
+  font-size:15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  letter-spacing:1px;
+}
+
+/*styles for date*/
+.formdate[type=date]{
+  width: 45%;
+  height:40px;
+  padding: 3px 6px 3px 10px ;
+  margin: 8px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/*styles for password boxes*/
+.formpwd[type=password], repassword{
+  width: 45%;
+  height:40px;
+  padding: 3px 6px 3px 10px ;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/*styles for check box*/
+.formcheck[type=checkbox]{
+  width: none%;
+  padding: 3px 6px 3px 10px ;
+  margin: 8px 0px;
+}
+
+/*styles for submit button*/
+.formsub[type=submit] {
+  width: 45%;
+  float:right;
+  background-image:linear-gradient(to right, #636363,#a2ab58);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formsub[type=submit]:hover {
+	background-image:linear-gradient(to right, #141517,#6A9113);
+}
+/*background styles for form*/
+form{
+  margin-top: 60px;
+  margin-bottom:30px;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  border-radius: 5px;
+  background-image:linear-gradient(to right, #F1F2B5,#135058);
+  padding: 20px;
+}
+
+/*style for star symbol*/
+.star{
+color:red;
+}
+
+/*styles for verification button*/
+.input-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.input-container input:focus, .input-container input:active {
+    outline: none;
+}
+.input-container input {
+    border: none;
+}
+.input-button{
+	border:transparent;
+	box-sizing: border-box;
+	height:20px;
+	background:transparent;
+	margin:20px 25px 0px -100px;
+}
+
+/*styles for some attributes*/
+#fname{
+	float:right;
+}
+
+#fnme{
+	margin:0px 0px 0px 4%;
+}
+
+#lblemail{
+	margin:0px 0px 0px 9%;
+}
+
+#pnvc{
+  width: 45%;
+  padding: 12px 10px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  letter-spacing:1px;
+}
+
+#main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#checktxt{
+	margin:0px 0px 0px 40%;
+}
+
+#pwd{
+	margin: 2px 0px 8px 0px;
+}
+
+#crmpwd{
+	margin: 8px 0px;
+}
+
+#formtitle1{
+	#margin:40px 0px 0px px;
+	margin-left:25%;
+	margin-top:5%;
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+}
+
+#formtitle2{
+	float:right;
+	margin-right:25%;
+	margin-top:1%;
+}
+
+/* style inputs and link buttons */
+col,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover, .btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* Two-column layout */
+.col {
+  float: right;
+  width: 45%;
+  margin: -50px 0px 0px 0px;
+  padding: 0px 8% 0px 3%; 
+}

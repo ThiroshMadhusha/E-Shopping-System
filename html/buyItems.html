@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>BUY Items</title> 
+		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="../css/awesome/css/all.css">
+		<link rel="stylesheet" type = "text/css" href="../css/mainstylesheet.css"> 
+		<link rel="stylesheet" type = "text/css" href="../css/store.css">
+		
+		<!--
+		<script src="../js/.js"></script>-->
+		<script src ="../js/news.js"></script>
+	</head>
+	<!--strat of header -->
+		<header class="header">
+			<!--banner-->
+			<div class="topbanner"><img src="../images/banner.gif"></div>
+			<!--navbar-->
+					<ul class="navbar">
+					<li class="menu"><a href ="home.html">Home</a></li>
+					<li class="menu"><a href ="signup.html">Sign Up</a></li>
+					<li class="menu"><a href ="Sign in.html">Sign In</a></li>
+					<li class="dropdown">
+						<a href="sell on.html" class="dropbtn">Sell on </i></a>
+					<div class="dropdown-content">
+						<a href="sellersignin.html">Seller Login</a>
+					</div>
+				</li>
+					<li class="menu1"><a href ="cart.php"><i class="fas fa-shopping-cart"></i><a></li>
+					<li class="menu1"><a href =""> <i class="far fa-bell"></i></i><a></li>
+					<li class="menu1"><a href ="Account.html">Account <i class="far fa-user"></i></a></li>
+					<li class="menu1"><a href ="Contact.html">Contact us<a></li>
+			</ul>
+			<!--logo -->
+			<img src="../images/logo.gif" class="logo" >
+			<!--search and cart -->
+			<div class="wrapper" class="box" >
+				<input type="text" class="input" placeholder="What are you looking for?">
+				<div class="searchbtn"><i class="fas fa-search"></i></div>
+				<div class="cart"> <i class="fas fa-2x fa-shopping-cart" ></i> </div>
+			</div>
+		</header>	<!--end of header -->
+		
+	<!-- Start of body-->
+	
+		<body>
+				<table id="str2" bgcolor=" violet" >
+					<tr>
+						<td>
+							<table  id="str2" width="100%"   border=  "0">
+								<tr>
+									<td  id="home1" align="left"><h1><b><i>New Store Items</i><b></h1></td><br>
+								</tr>
+							</table>
+									<table  border="1" id="str2" bgcolor="white">
+										<tr>
+											<td  id="str2" width="100%" height="300" >
+											
+											<center>	
+													<script>
+															var i = 0; // Start point
+															var images = [];
+															var time = 2000;
+
+															// Image List
+															
+															images[0] = '../images/img7.jpg';
+															images[1] = '../images/arrival2.webp';
+															images[2] = '../images/arrival8.webp';
+															images[3] = '../images/arrival3.webp';
+															images[4] = '../images/arrival4.webp';
+															images[5] = '../images/arrival5.webp';
+															images[6] = '../images/arrival6.webp';
+															images[7] = '../images/arrival7.webp';
+
+															// Change Image
+															function changeImg(){
+																document.slide.src = images[i];
+
+																if(i < images.length - 1){
+																	i++;
+																} else {
+																	i = 0;
+																}
+
+																setTimeout("changeImg()", time);
+															}
+
+															window.onload = changeImg;
+
+													</script>
+
+															<img name="slide" width="1000" height="300">
+										<br>
+														
+													
+											<p>
+												VdaatExpress is a global commerce leader that connects millions of buyers and sellers around the world. <br>
+												We exist to enable economic opportunity for individuals, entrepreneurs, businesses and organizations of all sizes. <br>
+												Our portfolio of brands includes VdaatExpress Marketplace and VdaatExpress Classifieds Group.
+											</p>
+											</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									
+						</td>
+					</tr>
+				</table >				
+				
+				<table id="str2" bgcolor=" cyan">
+					<tr>
+						<td>
+							<table id="str2" width="80%"   border=  "0">
+								<tr>
+									<td  id="home1" align="left"><h1><b><i>Men Dresses</i><b></h1></td><br>
+								</tr>
+							</table>
+									<table  border="1" id="str2" bgcolor="white">
+										<tr>
+											<td  id="tb3" width="400" height="200" >
+											<center>
+												<a href="buyItems.html"><img src="../images/fashion1.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Buy Men's T-Shirts Online - Upto 25% Off<br>
+																	<h1><b> US $19.89 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+															</center>
+														</td>
+													</tr>
+												</table>
+														
+											</td>
+											<td  id="tb3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/fashion44.jpg" width="100" height="200"></a>
+											</center>
+												<table border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	  Buy Men's T-Shirts - Upto 21% Off<br>
+																	<h1><b> US $75.11 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td id="tb3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/fashion2.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	 Buy Men's T-Shirts Online - Upto 38% Off<br>
+																	<h1><b> US $48.09 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>													
+										</tr>
+									</table>
+									
+						</td>
+					</tr>
+				</table>
+				
+				
+				<table id="str2" bgcolor="alice blue">
+					<tr>
+						<td>
+							<table id="str2" width="80%"   border=  "0">
+								<tr>
+									<td  id="home1" align="left"><h1><b><i>Men Watch & Female Watch</i><b></h1></td><br>
+								</tr>
+							</table>
+									<table  border="1" id="str2" bgcolor="white">
+										<tr>
+											<td  id="str3" width="400" height="200" >
+											<center>
+												<a href="buyItems.html"><img src="../images/watch3.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="str3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Buy Menn's Watch & Female Watch Online - Upto 57% Off<br>
+																	<h1><b> US $208.89 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+														
+											</td>
+											<td  id="str3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/fashion3.jpg" width="100" height="200"></a>
+											</center>
+												<table border="0" id="str3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	 Buy Menn's Watch & Female Watch Online - Upto 54% Off<br>
+																	<h1><b> US $288.09 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td id="str3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/watch5.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="str3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Buy Menn's Watch & Female Watch Online - Upto 30% Off<br>
+																	<h1><b> US $118.89 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>													
+										</tr>
+									</table>
+									
+						</td>
+					</tr>
+				</table>
+				
+				<table id="str2" bgcolor=" 	sky blue">
+					<tr>
+						<td>
+							<table id="str2" width="80%"   border=  "0">
+								<tr>
+									<td  id="home1" align="left"><h1><b><i>Wireless Keyboards & Wire Keyboards</i><b></h1></td><br>
+								</tr>
+							</table>
+									<table  border="1" id="str2" bgcolor="white">
+										<tr>
+											<td  id="str3" width="400" height="200" >
+											<center>
+												<a href="buyItems.html"><img src="../images/keyboard1.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="str3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Buy Computer Parts & Keyboards Online - Upto 30% Off<br>
+																	<h1><b> US $58.09 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+														
+											</td>
+											<td  id="str3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/keyboard2.jpg" width="100" height="200"></a>
+											</center>
+												<table border="0" id="str3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Buy Computer Parts & Keyboards Online - Upto 37% Off<br>
+																	 <h1><b> US $19.89 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td id="str3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/keyboard3.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="str3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Buy Computer Parts & Keyboards Online - Upto 67% Off<br>
+																	<h1><b> US $75.81 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>													
+										</tr>
+									</table>
+									
+						</td>
+					</tr>
+				</table>
+				
+				<table id="str2" bgcolor=" lime">
+					<tr>
+						<td>
+							<table id="str2" width="80%"   border=  "0">
+								<tr>
+									<td  id="home1" align="left"><h1><b><i>Cricket Items</i><b></h1></td><br>
+								</tr>
+							</table>
+									<table  border="1" id="str2" bgcolor="white">
+										<tr>
+											<td  id="tb3" width="400" height="200" >
+											<center>
+												<a href="buyItems.html"><img src="../images/cricket4.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	 Buy Cricket Items Online - Upto 17% Off<br>
+																	<h1><b> US $28.89 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+															</center>
+														</td>
+													</tr>
+												</table>
+														
+											</td>
+											<td  id="tb3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/cricket5.jpg" width="100" height="200"></a>
+											</center>
+												<table border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	 Buy Cricket Items Online - Upto 22% Off<br>
+																	<h1><b> US $38.01 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td id="tb3" width="400" height="200">
+											<center>
+												<a href="buyItems.html"><img src="../images/cricket.jpg" width="100" height="200"></a>
+											</center>
+												<table  border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Buy Cricket Items Online - Upto 34% Off<br>
+																	<h1><b> US $128.00 <b></h1>
+																	<a href="" align ="left" class="storcolor1">Buy Now</a><br><br>
+																	<button><a href="addItems.html" align="right">add To Cart</a></button><br>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>													
+										</tr>
+									</table>									
+						</td>
+					</tr>
+				</table>				
+
+				<br><br>
+				<center>
+							<button class="see-more-btn"><a href="store.html" class="color1" align="center"> Back</a></button>							
+				</center>
+					
+	
+		</body>
+<!--end of Body content -->	
+		<!-- Start of footer -->
+		<footer class="footer">
+			<table border="0" id="footertable">
+				<tr>
+					<td>	<a href="" class="tbheading">Payments</a>  </td>
+					<td>	<a href="" class="tbheading">Follow Us</a> </td>
+					<td>	<a href="" class="tbheading">Contact Us</a> </td>
+					<td>	<a class="tbheading">Verified by</a> </td>
+				</tr>	
+				<tr>
+					<td>	<img src="../images/payment.png" id="payveri"> </td>
+					<td>	
+						<ul class="icon">
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-facebook" class="ficon" style="color:blue"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-instagram" class="ficon" style="color:brown"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-twitter-square" class="ficon" style="color:#00acee"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-google-plus-square" class="ficon" style="color:#db4a39"></i> </a></li>
+						</ul>
+					</td>
+					<td><a href="#"><i class="fas fa-1x fa-envelope" id="cicon"> info@vdaatexpress.com</i></a></td>
+					<td> <img src="../images/verified.png" id="payveri">	</td>
+				</tr> 
+			</table>	
+			<p id="label"> &copy; Vdaat Express <script>document.write(new Date().getFullYear());</script>.  All rights reserved. </p>
+		</footer>
+		<!--end of header -->
+</html>

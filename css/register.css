@@ -1,0 +1,83 @@
+.bg{
+	
+  margin-top: 100 px;
+  margin-bottom: 100px;
+  margin-right: 180px;
+  margin-left: 180px;
+  border: 1px solid #4CAF50;
+  background-color:#d8d3d6;
+}
+
+.button{
+	background-color:#00e673;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 70px;
+  border: 1px solid #4CAF50;
+}
+.head{
+	color: #6666ff;
+}
+.b2{
+	border: 1px solid white; 
+padding-top: 200 px; 
+padding-bottom: 200 px;
+padding-left: 200px;
+padding-right: 200 px;
+}
+ul.career{
+	margin:-5px 0px 0px 0px;
+	padding:8px 4px 4px 4px;
+	overflow:hidden;
+	width:100%;
+	border-bottom: 2px solid #f2f2f2;
+	background-image:linear-gradient(to right ,#ada996,#F2F2F2,#DBDBDB,#EAEAEA);
+	font-size: 12px;
+	position:inherit;
+}
+
+li.mnu1{
+	display: block;
+	float: left;
+	padding:4px 16px;
+}
+
+
+
+li a {
+	text-decoration: none;
+	font-weight:bold;
+	color:black;
+}
+ li a:hover{
+	background-color:;
+	color:#660066;
+}
+
+form input[type=text], input[type=password] ,input[type=tel],input[type=textarea]  { 
+	width: 60%;
+  	padding: 12px 20px;
+  	margin: 12px 0;
+  	display: inline-block;
+	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+	color:purple;
+	background-color:white;
+	font-weight:bold;
+}
+form{
+
+  	display:block;
+	background-image:url("../images/mall.jpg");
+	border: 0px solid black;
+	color:black;
+	font-weight:bold;
+	
+}
+ 

@@ -1,0 +1,263 @@
+/*account page*/
+
+.accbar{ 
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: none;
+	text-decoration: none;
+	
+}
+
+.horizontal{
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+	float:left;
+	display:inline;
+	text-color:black;
+}
+body li a:hover{
+	color:red;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/*  decorations for the profile details on main page */
+.dp{
+	width:170px;
+	height:170px;
+	margin-right:35px;
+}
+.mainspc{
+	border: 1px solid black;
+    	padding: 25px 50px 40px 100px;
+	margin: 10px 10px 10px 20px;
+	background-color: #CDB599FF;
+	/*background-image:url("../images/background4.png");*/
+}
+.uname{
+	position: absolute;
+	left:550px;
+	top: 300px;
+	vertical-align: middle;
+	padding: 20px 20px 0px 60px;
+	float:right;
+}
+.mname{
+	position: absolute;
+	left:540px;
+	top:325px;	
+	vertical-align: middle;
+	padding: 20px 20px 0px 60px;
+	float:right;
+	margin:40px 180px 0px 0px;
+}
+
+
+
+.subspc{
+	border: 1px solid black;
+        padding: 10px 10px 100px 10px;
+	margin: 10px 1200px 10px 30px;
+	background-color: #207567;
+}
+
+
+.vert1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.vert2 {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+/*  images above the horizontal line */
+
+.cloth1{
+	position: absolute;
+	left:395px;
+	top:550px;
+	vertical-align: middle;
+	padding: 10px 10px 0px 60px;
+	float:right;
+	transition: 1s ease;
+}
+.cloth1:hover {
+  	-webkit-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
+	transition: 1s ease
+}
+
+.cloth2{
+	position: absolute;
+	left:455px;
+	top:700px;
+	vertical-align: middle
+	padding:20px 20px 0px 60px;
+	float:right;
+	width:8%;
+}
+.cloth2:hover {
+  	-webkit-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
+	transition: 1s ease
+}
+.cloth3{
+	position: absolute;
+	left:395px;
+	top:850px;
+	vertical-align: middle;
+	padding: 20px 20px 0px 60px;
+	float:right;
+	width:13%;
+}
+.cloth3:hover {
+  	-webkit-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
+	transition: 1s ease
+}
+
+
+.banner1{
+	position: absolute;
+	left:45%;
+	top:78%;
+	vertical-align: left;
+	padding: 20px 20px 0px 60px;
+	float:right;
+}
+
+/*-------------------------------------------------------------*/
+.favstore{
+	border: 1px solid black;
+       padding: 0px 10px 100px 10px;
+	margin: 10px 1200px 10px 30px;
+	background-color: #CDB599FF;
+}
+
+/* button inside the favourite store div tag */
+
+.button1{
+  background-color: #007c7d; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.recent{
+	border: 1px solid black;
+        padding: 10px 10px 250px 10px;
+	margin: 30px 1200px 10px 30px;
+}
+
+/* banner inside the favourite store div tag */
+
+.icon1{
+	padding:10px 40px 10px 0px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+
+.str1{
+	border: 1px solid black;
+        padding: 300px 50px 40px 15px;
+	margin: 10px 10px 10px 400px;
+	background-color:#dbe4f0;
+}
+
+
+
+
+/*  mannual slide show */
+
+ .slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: 800px;
+        margin-right: auto;
+        margin-top: -420px;
+        text-align: center;
+        overflow: hidden;
+	position:absolute;
+ }
+.image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+ }
+.slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+}
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+.buttons {
+        position: relative;
+        top: -20px;
+}
+.buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: #29a3a3;
+}
+
+/*  background image for the page */
+
+
+.background3{
+	background-image:url("../images/background3.jpg");	
+}

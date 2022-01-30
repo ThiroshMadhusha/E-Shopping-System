@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Seller Sign Up</title> 
+		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="../css/awesome/css/all.css">
+		<link rel="stylesheet" type = "text/css" href="../css/mainstylesheet.css"> 
+		<link rel="stylesheet" type = "text/css" href="../css/sellersignin.css"> 
+		<script src="../js/sellersignup.js"></script>
+	</head>
+	<!--strat of header -->
+		<header class="header">
+		<!--logo -->
+			<img src="../images/logo.gif" class="logo" >
+		</header>	<!--end of header -->
+	<body>
+	<!--Strat of Body content -->
+	<h1 class="welcomenote">Welcome Vdaatexpress Seller Login</h1>
+	<div class="bgrd">
+		<form action="../php/sellersignin.php" target="_self" method="POST" onSubmit="return checkpassowrd()" >
+			<label for="uname">User name</label><br>
+				<input type="text" id="uname" name="uname" placeholder = "Enter email address or phone number" name="uname" required> <br>
+  
+			<label for="password"> Password </label> <br>
+				<input type="password" name="password" id="pwd" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> <br>
+			
+			<a href="forgetpassword.html" id="fpwd">Forget Password ?</a><br>
+			<p><input type="checkbox" checked="checked" name="remember"> Stay Signed In<p>
+			
+			<center><input type="submit" id="submitbtn" value="Submit" ></center>
+		</form>
+	</div>
+	<h4 class="sheading4">New member?<a href="sellersignup.html">&nbsp;Register</a>&nbsp;here.</h4>
+	<!--end of Body content -->
+	</body>
+	<!-- Start of footer -->
+		<footer class="footer">
+			<p id="label"> &copy; Vdaat Express <script>document.write(new Date().getFullYear());</script>.  All rights reserved. </p>
+		</footer>
+		<!--end of header -->
+</html>

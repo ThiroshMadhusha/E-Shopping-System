@@ -1,0 +1,78 @@
+/*css for Live Chat page*/
+
+/*css for top image */
+.meetbody{
+	background-image: url("../images/meeting2.jpg");
+	width :	1520px;
+	height : 450px;
+}
+
+/*css for form */
+
+.request{
+	margin-left:28%;
+	
+}
+.formreq{
+	padding: 10px 10px 20px 30px;
+	margin-left:10px;
+}
+fieldset {
+	width: 610px;
+	margin-top: 20px;
+	border: 1px solid black;
+	background-color: #ccccb3;
+	line-height: 2.6em;
+	margin-left:30px;
+	border-radius: 10px;
+}
+
+
+input[type="text"] , input[type="email"] {
+	width: 200px;
+	border: 1px solid #d6d6d6;
+	padding: 5px;
+	outline: none;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover ,input[type="email"]:hover  {
+	background-color: #d0e2f0;
+	border: 1px solid #999999;
+}
+			
+input[type="submit"]  {
+	border: 1px solid #006633;
+	background-color: #009966;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+
+input[type="submit"]:hover {
+	border: 2px solid #006633;
+	background-color: #00cc33;
+	color: #ffffff;
+	cursor: pointer;
+}
+	
+.title {
+	float: left;
+	width: 200px;
+	clear: left;
+}
+	
+.submit {
+	width: 310px;
+	text-align: center;
+	margin-left:110px;
+}
+
+.backgroundbody{
+	background-color:#000033;
+}
+.textq{
+	color:white;
+}

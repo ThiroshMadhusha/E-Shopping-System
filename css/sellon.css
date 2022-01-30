@@ -1,0 +1,186 @@
+/*styles for sign up backgroung wallpaper*/
+#wall{
+	width:100%;
+	height:100%;
+}
+/*styles for heading, signup button, transparent box*/
+.container {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+.centered {
+	position: absolute;
+	top: 49%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.sellbottom {
+	width:100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	font-size:17px;
+}
+
+.Selltop {
+	position: absolute;
+	top: 15%;
+	left:36%;
+	font-size:20px;
+	font-style:italic;
+	padding-right:7px;
+	background: -webkit-linear-gradient(right, #CAC531, #004e92); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.transbox {
+	margin: 0px;
+	background-color: #ffffff;
+	border: 0px solid black;
+	opacity: 0.6;
+}
+
+div.transbox p {
+	padding-bottom:2%;
+	padding-top:2%;
+	font-weight: bold;
+	color: #000000;
+	text-align:center;
+}
+
+div.transbox a{
+	color:black;
+}
+
+.sellsignupbtn {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #232526;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	margin-top:20px;
+}
+
+.sellsignupbtn:hover {
+	background-color: #2c3e50
+}
+
+.sellsignupbtn:active {
+	background-color: #232526;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/*styles for benifits image*/
+#benifits{
+	width:100%;
+	height:100%;
+	margin-bottom:8%;
+}
+
+/*styles for heading2 and slideshow*/
+.heading2{
+	position: absolute;
+	margin-bottom:-8%;
+	margin-top:-8%;
+	padding-left:20%;
+	font-size:45px;
+	font-style:italic;
+	padding-right:7px;
+	background: -webkit-radial-gradient(right, #203A43, #004e92); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*styles for slide show*/
+
+.mySlides:nth-child(n+3) {
+	display:none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #bdc3c7;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*styles for effective image*/
+.effective{
+	width:80%;
+	display:block;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+}

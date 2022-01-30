@@ -1,0 +1,204 @@
+/*----------css for the artical body content----------*/
+.conbody{
+	background-color:#262626 ;	
+}
+
+/*css for the text*/
+.text{
+color:White;
+font-size:100px;
+margin: 40px;
+top:100px;
+}
+
+.textd{
+color:white;
+margin:50px;
+font-size:30px;
+}
+
+.textf{
+color:white;
+margin:20px;
+font-size:30px;
+}
+.textx{
+color:white;
+margin:20px;
+font-size:30px;
+}
+.textw{
+color:white;
+margin:20px;
+font-size:20px;
+}
+.textli{
+color:white;
+
+}
+
+/*-------------- css for boxes-----------*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px ;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 50px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+/*-----------------------css for form------------------------------------------------------------------------------------*/
+
+form input[type=text], input[type=email],input[type=tel],input[type=subject],input[type=message],textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form{
+	width:800px;
+	height:1000px;
+	padding:10px 30px 10px 30px;
+	margin: 60px;
+	background:#7a7a52;
+	margin:0px 0px 0px 100px;
+	border-radius:10px;
+	margin-left:350px;
+}
+
+.Submit{
+	background-color:black;
+	border:2px;
+	border-color:black;
+	color:white;
+	padding:10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+ 
+#fname, #lname, #email, #subject, #tele{
+	width:100%;
+ }
+ 
+/*------------------css for Details -------------------------------------------------------------------------*/ 
+
+.Live{
+	 width:20%;
+	 top:-200px;
+	 background-color:#f9f2ec;
+	 border:2px;
+	 border-color:black;
+	 color:black;
+	 padding:10px 18px;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 18px;
+	 margin: -350px 50px 0px 0px;
+	 float:right;
+}
+
+.liveb {
+  background-color: #4d4d33;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.liveb:hover {
+  opacity: 0.8;
+}
+.bodyad{
+	background-image: url("../images/contact-us.jpg");
+	width:1520px;
+	height:800px;
+	background-repeat:no-repeat;
+}
+
+
+a{
+text-decoration:none;
+color:black;
+}
+.boxx{
+    margin:0px 0px 0px 100px;
+	border-radius:10px;
+	margin-left:310px;
+}
+
+.box1{
+    width:350;
+	height:400px; 
+	background-color:#a3a375;
+	padding:10px 60px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 50px 50px 4px -55px;
+	white-space: nowrap;
+	
+}
+.box2{
+    width:350px;
+	height:400px; 
+	background-color:#7a7a52;
+	border:2px;
+	border-color:black;
+	color:white;
+	padding:10px 20px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 50px 50px 4px -55px;
+	background-image:  url("../images/meeting3.jpg");
+	white-space: nowrap;
+}
+.box3{
+	width:350px;
+	height:400px; 
+	background-color:#c2c2a3;
+	border:2px;
+	border-color:black;
+	padding:10px 18px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 50px 50px 4px -55px;
+	white-space: nowrap; 
+	display: inline-block;
+    padding: 40px;
+    
+}
+
+
+	

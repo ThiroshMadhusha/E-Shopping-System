@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Account</title> 
+		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="../css/awesome/css/all.css">
+		<link rel="stylesheet" type = "text/css" href="../css/mainstylesheet.css"> 
+		<link rel="stylesheet" type = "text/css" href="../css/contact.css">
+		<script src="../js/contact.js"> </script>
+		
+		<!--
+		<script src="../js/.js"></script>-->
+	</head>
+	<!--strat of header -->
+		<header class="header">
+			<!--banner-->
+			<div class="topbanner"><img src="../images/banner.gif"></div>
+			<!--navbar-->    
+			<ul class="navbar">
+					<li class="menu"><a href ="home.html">Home</a></li>
+					<li class="menu"><a href ="signup.html">Sign Up</a></li>
+					<li class="menu"><a href ="Sign in.html">Sign In</a></li>
+					<li class="dropdown">
+						<a href="sell on.html" class="dropbtn">Sell on </i></a>
+					<div class="dropdown-content">
+						<a href="sellersignin.html">Seller Login</a>
+					</div>
+				</li>
+					<li class="menu1"><a href ="cart.php"><i class="fas fa-shopping-cart"></i><a></li>
+					<li class="menu1"><a href =""> <i class="far fa-bell"></i></i><a></li>
+					<li class="menu1"><a href ="Account.html">Account <i class="far fa-user"></i></a></li>
+					<li class="menu1"><a href ="Contact.html">Contact us<a></li>
+			</ul>
+ 
+ 
+			<!--logo -->
+			<img src="../images/logo.gif" class="logo" >
+			<!--search and cart -->
+			<div class="wrapper" class="box" >
+				<input type="text" class="input" placeholder="What are you looking for?">
+				<div class="searchbtn"><i class="fas fa-search"></i></div>
+				<div class="cart"> <i class="fas fa-2x fa-shopping-cart" ></i> </div>
+			</div>
+		</header>	<!--end of header -->
+		<body>
+		
+		<!--Strat of Body content -->	
+			<div class="conbody">
+				<div class="bodyad"><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+					<h1 class ="text"> Welcome ! </h1><br>
+					<p class="textd"> WE LOVE HEARING FROM ALL OUR CUSTOMER <br><br> We are to have 24/7 & aim to respond within 24hours.<br> So whatever you need help with , just use the form below</p><br>
+					<p class="textf">&#128578; ClLICK ME for more details</p><br>
+					
+					
+					<!-- set three lineup boxes in the page-->
+					<!-- The grid: three columns -->
+					<div class="row">
+						<div class="column" onclick="openTab('b1');" style="background:#a8a857;">My Order</div>
+						<div class="column" onclick="openTab('b2');" style="background:#76763d;">Return items</div>
+						<div class="column" onclick="openTab('b3');" style="background:#97974e;">Cancel</div>
+					</div>
+
+					<!-- The expanding grid (hidden by default) -->
+					<div id="b1" class="containerTab" style="display:none;background:#a8a857">
+					  <!-- If you want the ability to close the container, add a close button -->
+						<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+						<p style="font-size:25px">&#128666;<b>I WANT TO KNOW WHERE MY ORDER IS</b></p><br> 
+						<small>Get status update about your orders with our<br>Tracking Tool</small>
+					</div>
+
+					<div id="b2" class="containerTab" style="display:none;background:#76763d">
+						<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+						<p style="font-size:25px">&#128667;<b>I WANT TO RETURN AN ITEM</b></p><br>  
+						<small>Use Online Return form from to start your<br>return</small>
+					</div>
+
+					<div id="b3" class="containerTab" style="display:none;background:#97974e">
+						<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+						<p style="font-size:25px">&#128680;<b>I WANT TO CANCEL AN ORDER</b></p><br>  
+						<small>Use our Online Cancellation form to start <br>your order cancellation</small>
+					</div>
+				</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				
+				<!--set the heading of the atrical--> 
+				<!-- create an artical -->				    
+				<center>
+					<h2 class="textx"> NEED MORE HELP ?<h2><br>
+					<h3 class="textw">Contact Us<h3><br> 
+				</center>
+				
+					<!-- start the form-->
+				<form method="get" action="" onSubmit="enablebutton()"><br><br>
+					<small> Please fill the below form for more inquires,suggestions, and comments </small><br><br><hr><br>
+					
+					<label for="fname">First name:</label><br><br>
+					<input type="text" id="fname" name="fname" placeholder = "First Name" required> <br><br>
+  
+					<label for="lname">Last name:</label><br><br>
+					<input type="text" id="lname"  name="lname" placeholder="Last Name" required> <br><br>
+  
+					<label for="Mobilenumber"> Mobile Number: </label><br><br>
+					<input type= "tel" id="tele" name="teleNo"  placeholder="eg-0712346578" required> <br><br>
+  
+					<label for="email">Enter your email: </label> <br><br>
+					<input type="email" id="email" name="email" placeholder="abc@gmail.com" required> <br><br>
+							
+					<label for="subject">Subject:</label><br><br>
+					<input type="text" id="subject"  name="Subject" placeholder="Enter your subject" required> <br><br>
+							
+					<label for="Address">Message: </label> <br><br>
+					<textarea name="address"  placeholder="Enter message" reqiured> </textarea> <br><br><br><br>
+								
+					<input class="inputstyle id="checkbox" type="checkbox" onclick="enableButton()"> Accept privacy policy and terms <br><br><br><br>
+					<center><button name="BtnSubmit" type="submit" class="Submit">Submit</button></center>
+				</form><br>
+				<!--Information part-->
+				<div class="boxx">
+					<table>
+						<tr>
+							<td class="box1"> <br><br>
+								<a href ="Return.html">Return and Refund</a><br><br><br> 
+								<a href ="Ship.html">Shipping and Tracking</a><br><br><br>
+								<a href ="Selling.html">Selling</a><br><br><br> 
+								<a href ="Buying.html">Buying</a><br><br><br> 
+								<a href ="Account_contact.html">Account</a><br><br><br> 
+								<a href ="Fee.html">Fee And Invoice</a><br><br><br> 
+							</td>
+							<td class="box2">  
+								<img src="../images/meeting3.gif"  height="370" width="310"> 
+							</td>
+							<td class="box3"><center>
+								<p>Can't find the answer <br><br> you are looking for? <br><br> contact us through<br><br> <q>LIVE CHAT</q> <br><br>we will assist you.</p><br><br>
+								<p class="fas fa-3x fa-qrcode"></p><br><br></center>
+								<button type="Live" class="liveb"><a href ="meeting.html"><h3 class="textli" >Live chat</h3></a></button>
+							</td>
+						</tr> 
+					</table>
+				</div><br><br><br><br>
+				<!-- end the artical-->
+				<!-- Advertistment-->
+				<center>
+					<h3 class="textli">Reserve your space for advertisting........Contact us....! <h3><br>
+					<img src="../images/ad1.gif" class="ad1" height="300" width="245">
+					<img src="../images/ad5.gif" class="ad3" height="300" width="245">
+					<img src="../images/ad2.gif" class="ad2" height="300" width="245">
+					<img src="../images/ad4.gif" class="ad4" height="300" width="245">
+					<img src="../images/ad6.gif" class="ad6" height="300" width="245">
+				</center><br><br><br>
+			</div>
+		</body>
+		<!--end of Body content -->	
+		
+		<!-- Start of footer -->
+		<footer class="footer">
+			<table border="0" id="footertable">
+				<tr>
+					<td>	<a href="" class="tbheading">Payments</a>  </td>
+					<td>	<a href="" class="tbheading">Follow Us</a> </td>
+					<td>	<a href="" class="tbheading">Contact Us</a> </td>
+					<td>	<a class="tbheading">Verified by</a> </td>
+				</tr>	
+				<tr>
+					<td>	<img src="../images/payment.png" id="payveri"> </td>
+					<td>	
+						<ul class="icon">
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-facebook" class="ficon" style="color:blue"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-instagram" class="ficon" style="color:brown"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-twitter-square" class="ficon" style="color:#00acee"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-google-plus-square" class="ficon" style="color:#db4a39"></i> </a></li>
+						</ul>
+					</td>
+					<td><a href="#"><i class="fas fa-1x fa-envelope" id="cicon"> info@vdaatexpress.com</i></a></td>
+					<td> <img src="../images/verified.png" id="payveri">	</td>
+				</tr> 
+			</table>	
+			<p id="label"> &copy; Vdaat Express <script>document.write(new Date().getFullYear());</script>.  All rights reserved. </p>
+		</footer>
+		<!--end of header -->
+</html>

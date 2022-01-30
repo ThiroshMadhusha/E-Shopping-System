@@ -1,0 +1,47 @@
+/*styles for image section*/
+.section{
+	display: block;
+	margin-top:40px;
+}
+
+/*styles for images*/
+#newsimg1, #newsimg2, #newsimg3, #newsimg4, #newsimg5, #newsimg6, #newsimg7, #newsimg8, #newsimg9, #newsimg10{
+	margin:5px;
+	width:230px;
+	height:320px;
+}
+
+/*styles for deal buttons*/
+.dealbtn {
+  background-color: red;
+  border: 1px solid red;
+  border-radius:20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:200px;
+}
+
+.dealbtn:focus {
+	background-image:linear-gradient(to right, #fe8c00,#f83600);
+}
+
+#dbtncontainer{
+	margin-top:50px;
+	margin-bottom:5px;
+}
+
+/*styles for deal heading*/
+body h2{
+	font-size:80px;
+	font-family:cursive;
+	margin-left:8%;
+	background: -webkit-linear-gradient(right, #f12711, #f5af19); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

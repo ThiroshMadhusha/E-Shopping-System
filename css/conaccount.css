@@ -1,0 +1,25 @@
+/*styles for animation image in articals folder*/
+
+
+.article{
+	margin:50px;
+	padding:20px;
+	background-image:radial-gradient( #ffffcc,white);
+	color:black;
+	overflow:visible;
+	border: 5px solid black; 
+	border-color: Black;
+}
+.text{
+	color: #0000b3;
+	font-size: 50px;
+	
+}
+.bull{
+	margin:30px;
+}
+.accbody {
+  background-image: url("../images/artiback.jpg");
+  background-position: center;
+
+}

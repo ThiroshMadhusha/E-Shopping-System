@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>register</title> 
+		<link rel="stylesheet" href="../css/awesome/css/all.css">
+		<link rel="stylesheet" type = "text/css" href="../css/mainstylesheet.css"> 
+		<link rel="stylesheet" type = "text/css" href="../css/register.css">
+		
+		<script>
+		alert("please enter correct information");
+		</script>
+		
+	
+	<!--strat of header -->
+		<header class="header">
+			<!--banner-->
+			<img src="../images/banner.png">
+			<!--navbar -->
+			<ul class="navbar">
+					<li class="menu"><a href ="home.html">Home</a></li>
+					<li class="menu"><a href ="signup.html">Sign Up</a></li>
+					<li class="menu"><a href ="Sign in.html">Sign In</a></li>
+					<li class="dropdown">
+						<a href="sell on.html" class="dropbtn">Sell on </i></a>
+					<div class="dropdown-content">
+						<a href="sellersignin.html">Seller Login</a>
+					</div>
+				</li>
+					<li class="menu1"><a href ="cart.php"><i class="fas fa-shopping-cart"></i><a></li>
+					<li class="menu1"><a href =""> <i class="far fa-bell"></i></i><a></li>
+					<li class="menu1"><a href ="Account.html">Account <i class="far fa-user"></i></a></li>
+					<li class="menu1"><a href ="Contact.html">Contact us<a></li>
+			</ul>
+			<!--logo -->
+			<img src="../images/logo.gif" class="logo" >
+			
+		    </header>	
+		<!--end of header -->
+		
+		
+		
+		<!--Start of Body content -->	
+		<body>
+		<img src="../images/join.jpg" height="200" width="1050">
+		<hr color="blue"><ul class="career">
+				<li class="mnu1"><a href ="jobs.html">jobs</a></li> 
+				<li class="mnu1"><a href =".html">register</a></li>
+		</ul>
+
+		
+			<form action="contact.php" method="POST"><br>
+			<div class="bg">
+			
+        <center><b><h1 class= "head"> Register here! </h1><b></center><br>
+
+        <center><b><label for="job">Job Type:</b></label></center>
+        <center> <input type="text" class="b2" placeholder="    job type " name="jobtype" id="job" required></center><br>
+        <center><b><label for="1name"First name:</b></label></center>
+		<center>  <input type="text" class="b2" placeholder=" first name    " name="firstname" id="1name"required></center><br>
+		<center><b><label for="lname">Last name:</b></label></center>
+		<center>  <input type="text" class="b2" placeholder="    last name    " name="lastname" id="lname" required></center><br>
+		<center><label for="date"> Date Of Birth:</label></center>
+		<center><input type="text" class="b2" name="date" id="date"></center><br>
+		<center><b>Gender:<b><br></center>
+		<center><input type="radio" name="gender" value="m"> Male</center><br>
+        <center> <input type="radio" name="gender" value="f"> Female</center><br>
+        <center><b><label for="number">Mobile number :</b></label></center>
+	    <center><input type="tel" class="b2" id="phone" name="phoneno" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" id="number" required><br></center>
+		<center><label for="email">Enter your email:</label></center>
+		<center><input type="text" class="b2" id="email" name="email"><br></center>
+		<!--<center> <b>Educational qualifications :</b></center><br>
+		<center><textarea class="b2"    rows = "8" cols  = "50" required></textarea><br></center>-->
+		<center><b><label for="experience">Experience in years:</b></label></center>
+		<center>  <input type="text" class="b2"  name="YearsOfExperience" id="experience"></center><br>
+		<center><b><label for="sallary">Expected sallary</b></label></center>
+		<center>  <input type="text" class="b2" name="sallary" id="sallary"></center><br>
+		<br>
+<p id="demo1"></p>
+
+       <script>
+       var d = new Date();
+       document.getElementById("demo1").innerHTML = d;
+       </script>
+
+		<center> 
+		<button onclick="myFunction()" class="button">Submit</button>
+		</center>
+
+<p id="demo"></p>
+		<script>function myFunction() {
+		var txt;
+		if (confirm("submit the form!")) {
+		txt = " form submited completely";
+		}
+		document.getElementById("demo").innerHTML = txt;
+		}
+		</script>
+		
+		
+		</div>
+
+  
+</form>
+</body>
+<!--end of Body content -->	
+
+
+
+		<!-- Start of footer -->
+		<footer class="footer">
+			<table border="0" id="footertable">
+				<tr>
+					<td>	<a href="" class="tbheading">Payments</a>  </td>
+					<td>	<a href="" class="tbheading">Follow Us</a> </td>
+					<td>	<a href="" class="tbheading">Contact Us</a> </td>
+					<td>	<a class="tbheading">Verified by</a> </td>
+				</tr>	
+				<tr>
+					<td>	<img src="../images/payment.png" id="payveri"> </td>
+					<td>	
+						<ul class="icon">
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-facebook" class="ficon" style="color:blue"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-instagram" class="ficon" style="color:brown"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-twitter-square" class="ficon" style="color:#00acee"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-google-plus-square" class="ficon" style="color:#db4a39"></i> </a></li>
+						</ul>
+					</td>
+					<td><a href="#"><i class="fas fa-1x fa-envelope" id="cicon"> info@vdaatexpress.com</i></a></td>
+					<td> <img src="../images/verified.png" id="payveri">	</td>
+				</tr> 
+			</table>	
+			<p id="label"> &copy; Vdaat Express 2020.  All rights reserved. </p>
+		</footer>
+		<!--end of footer -->
+</html>

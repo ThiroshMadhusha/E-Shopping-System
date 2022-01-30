@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sign Up</title> 
+		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="../css/awesome/css/all.css">
+		<link rel="stylesheet" type = "text/css" href="../css/mainstylesheet.css"> 
+		<link rel="stylesheet" type = "text/css" href="../css/signup.css"> 
+		<script src="../js/signup.js"></script>
+	</head>
+	<!--strat of header -->
+		<header class="header">
+			<!--banner-->
+			<div class="topbanner"><img src="../images/banner.gif"></div>
+			<!--navbar -->
+			<ul class="navbar">
+					<li class="menu"><a href ="home.html">Home</a></li>
+					<li class="menu"><a href ="signup.html">Sign Up</a></li>
+					<li class="menu"><a href ="Sign in.html">Sign In</a></li>
+					<li class="dropdown">
+						<a href="sell on.html" class="dropbtn">Sell on </i></a>
+					<div class="dropdown-content">
+						<a href="sellersignin.html">Seller Login</a>
+					</div>
+				</li>
+					<li class="menu1"><a href ="cart.php"><i class="fas fa-shopping-cart"></i><a></li>
+					<li class="menu1"><a href =""> <i class="far fa-bell"></i></i><a></li>
+					<li class="menu1"><a href ="Account.html">Account <i class="far fa-user"></i></a></li>
+					<li class="menu1"><a href ="Contact.html">Contact us<a></li>
+			</ul>
+			<!--logo -->
+			<img src="../images/logo.gif" class="logo" >
+			<!--search and cart -->
+			<div class="wrapper" class="box" >
+				<input type="text" class="input" placeholder="What are you looking for?">
+				<div class="searchbtn"><i class="fas fa-search"></i></div>
+				<div class="cart"> <i class="fas fa-2x fa-shopping-cart" ></i> </div>
+			</div>
+		</header>	<!--end of header -->
+		<body>
+		<!--Strat of Body content -->	
+			<div class="reg">
+				<p id="formtitle1">Create your VdaatExpress Account</p><p id="formtitle2">Already member ? <a href="#">Login<a> here.
+					<form action="../php/Signup.php" target="_self" method="POST" onSubmit="return checkpassowrd()" >
+				
+						<div id="main">
+							<label for="Mobilenumber"> Phone Number <span class="star">*</span> :</label> 
+							<label for="fname" id="fnme">Full name  <span class="star">*</span> :</label> <br>
+						</div>
+				
+						<input type= "tel" id="tel" name="phno"class="formtel" placeholder="0778911974" pattern="[0-9]{10}" onblur="sendButton()" required> 
+						<input type="text" class="formtext" id="fname" name ="fname" placeholder = "Enter First name and last name" name="fname" required> <br><br>
+					
+						<div id="main">
+							<label for="pnvc">Verification code <span class="star">*</span> : </label> 
+							<label for="email" id="lblemail">Enter your email <span class="star">*</span> : </label><br>
+						</div>
+						
+						<div class="input-container">
+							<input type="text" id="pnvc" placeholder= "SMS verification code" name="pnvc" > 
+							<button class="input-button" id="send" disabled >send</button>
+					
+							<input type="email" class="formemail" id="email" name="email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+						</div> <br>
+				
+						<div id="main">
+							<label for="password"> Password <span class="star">*</span> : </label> 
+							<label id="checktxt"><input type="checkbox" class="formcheck" id="checkbox" onclick="enableButton()"> Accept privacy policy and terms</label><br>
+						</div>
+						<input type="password" class="formpwd" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> 
+						<input type="submit" class="formsub" id="submitbtn" value="Sign Up" disabled><br>
+							
+							<label for="repassword"> Confirm Password <span class="star">*</span>  :</label> <br>
+							<input type="password" class="formpwd"id="crmpwd" name = "crmpwd" required> <br>
+				
+					
+						<div class="col">
+							<a href="#" class="fb btn">
+								<i class="fa fa-facebook fa-fw"></i> Continue with Facebook
+							</a>
+							<a href="#" class="twitter btn">
+								<i class="fa fa-twitter fa-fw"></i> Continue with Twitter
+							</a>
+							<a href="#" class="google btn"><i class="fa fa-google fa-fw">
+								</i> Continue with Google+
+							</a>
+						</div>
+						<label for="dOb"> Choose your DOB <span class="star">*</span> :</label><br>
+							<input type ="date" class="formdate" name="dob" required><br>
+			
+						<label for="Gender"> Gender : </label><br>
+						<label for="male" class="fromradio">Male
+							<input type="radio" id="male" name="gender" value="male" checked>
+							<span class="checkmark"></span>
+						</label>
+						<label for="female" class="fromradio">Female
+							<input type="radio" id="female" name="gender" value="female">
+							<span class="checkmark"></span>
+						</label><br><br>
+					</form>
+				</div>
+			</body>
+		<!--end of Body content -->	
+		<!-- Start of footer -->
+		<footer class="footer">
+			<table border="0" id="footertable">
+				<tr>
+					<td>	<a href="" class="tbheading">Payments</a>  </td>
+					<td>	<a href="" class="tbheading">Follow Us</a> </td>
+					<td>	<a href="" class="tbheading">Contact Us</a> </td>
+					<td>	<a class="tbheading">Verified by</a> </td>
+				</tr>	
+				<tr>
+					<td>	<img src="../images/payment.png" id="payveri"> </td>
+					<td>	
+						<ul class="icon">
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-facebook" class="ficon" style="color:blue"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-instagram" class="ficon" style="color:brown"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-twitter-square" class="ficon" style="color:#00acee"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-google-plus-square" class="ficon" style="color:#db4a39"></i> </a></li>
+						</ul>
+					</td>
+					<td><a href="#"><i class="fas fa-1x fa-envelope" id="cicon"> info@vdaatexpress.com</i></a></td>
+					<td> <img src="../images/verified.png" id="payveri">	</td>
+				</tr> 
+			</table>	
+			<p id="label"> &copy; Vdaat Express 2020.  All rights reserved. </p>
+		</footer>
+		<!--end of header -->
+</html>

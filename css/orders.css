@@ -1,0 +1,50 @@
+.background4{
+	background-image:url("../images/background3.jpg");
+}
+
+.box{
+	border: 1px solid black;
+    	padding: 25px 50px 500px 40px;
+	margin: 10px 300px 10px 300px;
+	background-color:#CDB599FF;
+}
+.notice{
+	position: absolute;
+	left:40%;
+	top:50%;
+	vertical-align: middle;
+	padding: 20px 20px 0px 60px;
+	float:center;
+}
+.bttn2{
+	background-color: #4CAF50; /* Green */
+  	border: none;
+  	padding: 10px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	color: white;
+	position: absolute;
+	left:43%;
+	top:60%;
+	vertical-align: middle;
+	float:center;
+
+}
+.vrbann1{
+	position: absolute;
+	left:0%;
+	top:20%;
+	vertical-align: middle;
+	padding: 14px 100px 0px 12px;
+	float:left;
+}
+.vrbann2{
+	position: absolute;
+	left:79.5%;
+	top:20%;
+	vertical-align: middle;
+	padding: 20px 100px 0px 18px;
+	float:left;
+}

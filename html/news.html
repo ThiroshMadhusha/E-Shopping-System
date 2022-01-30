@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>News</title> 
+		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="../css/awesome/css/all.css">
+		<link rel="stylesheet" type = "text/css" href="../css/mainstylesheet.css"> 
+		<link rel="stylesheet" type = "text/css" href="../css/news.css">
+		
+		<!--
+		<script src="../js/.js"></script>-->
+		<script src ="../js/news.js"></script>
+
+	</head>
+	<!--strat of header -->
+		<header class="header">
+			<!--banner-->
+			<div class="topbanner"><img src="../images/banner.gif"></div>		
+<!--Strat of Body content -->	
+	
+	<!--newsbar -->
+				<ul class="newsbar" id="news2">
+					<li class="newsmenu"><a href ="home.html">Home</a></li> 
+					<li class="newsmenu"><a href ="#">NEWS</a></li>
+					<li class="newsmenu"><a href ="">Company Info</a></li>
+					<li class="newsmenu"><a href ="">Careers</a></li>
+					<li class="newsmenu"><a href ="">Advice with Us</a></li>
+				</ul>
+	
+			<!--logo -->
+			<img src="../images/logo.gif" class="logo" >
+			<!--search and cart -->
+			<div class="wrapper" class="box" >
+				<input type="text" class="input" placeholder="What are you looking for?">
+				<div class="searchbtn"><i class="fas fa-search"></i></div>
+				<div class="cart"> <i class="fas fa-2x fa-shopping-cart" ></i> </div>
+			</div>
+		</header>	<!--end of header -->
+		<body>
+		<!--Strat of Body content -->	
+		
+		
+				<table id="tb2" bgcolor=" light blue">
+					<tr>
+						<td>
+							<table id="tb2" width="80%"   border=  "0">
+								<tr>
+									<td  id="tb3" align="left"><h1><b><i>Featured Articles</i><b></h1></td><br>
+								</tr>
+							</table>
+									<table  border="1" id="tb2" bgcolor="white">
+										<tr>
+											<td  id="tb3" width="400" height="600" >
+											<center>
+												<a href="newsStories.html"><img src="../images/new.jpg" width="290" height="400"></a>
+											</center>
+												<table  border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	As the company scales its managed payments offering, customers in these countries will join the streamlined experience in early 2021
+																	<br><br>
+																	<button class="read-more-btn"><a href="newsStories.html"  class="color1" align="center" >  Read More</a></button>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+														
+											</td>
+											<td  id="tb3" width="400" height="600">
+											<center>
+												<a href="seeMore.html"><img src="../images/news1.jpg" width="290" height="400"></a>
+											</center>
+												<table border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	 Vdattexpress's managed payments reached a significant milestone at the end of July with the expiration of its Operating Agreement with PayPal.
+																	 <br><br>
+																	 <button class="read-more-btn"><a href="seeMore.html"  class="color1" align="center" >  Read More</a></button>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td id="tb3" width="400" height="600">
+											<center>
+												<a href="newsNext.html"><img src="../images/news3.jpg" width="290" height="370"></a>
+											</center>
+												<table  border="0" id="tb3" bgcolor="white" width="290">
+													<tr>
+														<td>
+															<center> 
+																	Carol Hayles brings deep operating and financial expertise to VdaatExpress. 
+																	She currently serves on the Board of Directors of Webster Financial Corporation, where she is Chair of the Compensation Committee.
+																	<br><br>
+																	<button class="read-more-btn"><a href="newsNext.html"  class="color1" align="center" >  Read More</a></button>
+
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>													
+										</tr>
+									</table>
+									
+						</td>
+					</tr>
+				</table>
+					
+				<table id="tb2" bgcolor=" violet">
+					<tr>
+						<td>
+							<table  id="tb2" width="100%"   border=  "0">
+								<tr>
+									<td  id="home1" align="left"><h1><b><i>News and Updates</i><b></h1></td><br>
+								</tr>
+							</table>
+									<table  border="1" id="tb2" bgcolor="white">
+										<tr>
+											<td  id="tb2" width="100%" height="300" >
+											
+											<script>
+													var i = 0; // Start point
+													var images = [];
+													var time = 2000;
+
+													// Image List
+													
+													images[0] = '../images/arrival11.gif';
+													images[2] = '../images/arrival8.webp';
+													images[1] = '../images/arrival1.webp';
+													images[3] = '../images/arrival4.webp';
+													images[4] = '../images/arrival6.webp';
+													images[5] = '../images/arrival5.webp';
+													
+													// Change Image
+													function changeImg(){
+														document.slide.src = images[i];
+
+														if(i < images.length - 1){
+															i++;
+														} else {
+															i = 0;
+														}
+
+														setTimeout("changeImg()", time);
+													}
+
+													window.onload = changeImg;
+
+											</script>																	
+											<img name="slide" width="100%" height="400" id="tb4">
+											
+												<table  border="0" id="tb3" bgcolor="white" width="100%">
+													<tr>
+														<td>
+															<center> <b>Company expands Authenticity Guarantee to one of its highest-profile categories; Program launches this month and will authenticate all collectible sneakers over $100 by early 2021</B>
+															<br><br>																	
+															</center>
+															<center>
+																<button class="read-more-btn"><a href="readmore.html"  class="color2" align="right" >Read More</a></button>
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									
+						</td>
+					</tr>
+				</table >				
+		
+		</body>
+<!--end of Body content -->	
+		<!-- Start of footer -->
+		<footer class="footer">
+			<table border="0" id="footertable">
+				<tr>
+					<td>	<a href="" class="tbheading">Payments</a>  </td>
+					<td>	<a href="" class="tbheading">Follow Us</a> </td>
+					<td>	<a href="" class="tbheading">Contact Us</a> </td>
+					<td>	<a class="tbheading">Verified by</a> </td>
+				</tr>	
+				<tr>
+					<td>	<img src="../images/payment.png" id="payveri"> </td>
+					<td>	
+						<ul class="icon">
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-facebook" class="ficon" style="color:blue"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-instagram" class="ficon" style="color:brown"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-twitter-square" class="ficon" style="color:#00acee"></i> </a></li>
+							<li class="icon"> <a href="#"> <i class="fab fa-2x fa-google-plus-square" class="ficon" style="color:#db4a39"></i> </a></li>
+						</ul>
+					</td>
+					<td><a href="#"><i class="fas fa-1x fa-envelope" id="cicon"> info@vdaatexpress.com</i></a></td>
+					<td> <img src="../images/verified.png" id="payveri">	</td>
+				</tr> 
+			</table>	
+			<p id="label"> &copy; Vdaat Express <script>document.write(new Date().getFullYear());</script>.  All rights reserved. </p>
+		</footer>
+		<!--end of header -->
+</html>

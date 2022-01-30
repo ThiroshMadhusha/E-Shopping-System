@@ -1,0 +1,39 @@
+ul.jobbar{
+	margin:-5px 0px 0px 0px;
+	padding:8px 4px 4px 4px;
+	overflow:hidden;
+	width:100%;
+	border-bottom: 2px solid #f2f2f2;
+	background-color:#99ff99;
+	font-size: 12px;
+	position:inherit;
+}
+
+.mnu{
+	display: block;
+	float: left;
+	padding:4px 16px;
+}
+
+
+
+.mnu {
+	text-decoration: none;
+	font-weight:bold;
+	color:black;
+}
+.mnu :hover{
+	color: #660066;
+}
+.careers{	
+  margin-top: 40 px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  border: 1px solid #4CAF50 ;
+background-color:white;}
+.topic{
+color:red;}
+
+.c1{
+background-image: url("../images/career.jpg");}
